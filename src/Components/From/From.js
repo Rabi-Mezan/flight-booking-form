@@ -1,7 +1,12 @@
 import React from 'react';
 import './From.css'
 
-const From = () => {
+const From = ({ setFrom }) => {
+    const handleFrom = (e) => {
+        const value = e.target.value
+        setFrom(value)
+    }
+
     return (
         <div className=''>
             <lebel class="fs-4  fw-light">From</lebel>

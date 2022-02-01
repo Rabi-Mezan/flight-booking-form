@@ -3,12 +3,12 @@
 }
   
 .input-icons {
-    width: 330px;
+    width: 400px;
     margin-bottom: 10px;
 }
   
 .icon {
-    padding: 10px;
+    padding: 12px;
     min-width: 40px;
     font-size: 25px;
 
@@ -16,9 +16,22 @@
   
 .input-field {
     width: 100%;
-    padding: 10px;
+    padding: 14px;
     padding-left: 35px;
     text-align: left;
     font-size:20px ;
-    color:  #eb143a;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color:rgba(59,130,246,0.05) ;
+    
+}
+
+.input-field:focus{
+    outline: none;
+    border:5px solid rgba(59,130,246,0.5);
+}
+
+input::placeholder{
+    color:  gray;
+    font-weight: 300;
 }
