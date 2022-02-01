@@ -1,0 +1,13 @@
+.incre-decre-btn input{
+    width: 30px;
+    text-align: center;
+    border: none;
+    background-color:rgba(59,130,246,0.05) ;
+    
+}
+
+.incre-decre-btn {
+   width: 150px;
+   height: 50px;
+   background-color:rgba(59,130,246,0.05) ;
+}
